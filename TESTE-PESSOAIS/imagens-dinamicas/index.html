@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella e eu</title>
+</head>
+
+<body>
+
+    <h1>Testando imagens dinâmicas</h1>
+
+    <picture>
+        <source media="(max-width: 725px)" 
+        srcset="imagem-bella/capa-bella-700.png" 
+        type="image/png">
+
+        <source media="(max-width: 1125px)" 
+        srcset="imagem-bella/capa-bella-1100.png" 
+        type="image/png">
+
+        <img src="imagem-bella/capa-bella.png" 
+        alt="foto padrão Bella">
+    </picture>
+
+</body>
+</html>
