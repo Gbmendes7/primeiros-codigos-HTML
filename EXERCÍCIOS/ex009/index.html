@@ -3,33 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
-      <h2>Código-fonte/ Pré-formatação</h2>
-        <p>O comando <code>document.getELementById('teste)</code> é escrito em linguagem JavaScript</p>
-        <pre>
-            <code>  
-        num = int(input('digite um número'))
-        if num % 2 == 0:
-            print (f' O número {num} é par)
-        else:
-            print (f' O número {num} é ímpar')
-        print('fim do programa')
+    <h1>Listas</h1>
+      <h2>Listas ordenadas</h2>
+        <h3>Dia-a-Dia</h3>
+        <ol type="A"> <!-- 1 A a I i -->
+            <li>Acordar</li>
+            <li>Tomar café</li>
+            <li>Arrumar a casa</li>
+            <li>ler um livro</li>
+            <li>Estudar</li>
+            <li>ALmoçar</li>
+            <li>Estudar novamente</li>
+            <li>Ir pra academia</li>
+            <li>Tomar banho</li>
+            <li>Jantar</li>
+            <li>Dormir</li>
 
-                
-            </code>
-        </pre>
-        <h2>Citações simples</h2>
-          <p>Como diria o pai de um amigo meu: <q>o computador é um burro muito rápido</q></p>
-        <h2>Citações completas</h2>
-          <p>Segundo Jeff Noble, no seu livro HTML para Leigos: <blockquote cite="https://www.google.com.br/books/edition/HTML_XHTML_and_CSS_For_Dummies/oWkeeH6ik1MC?hl=pt-BR&gbpv=1&dq=html+para+leigos+jeff+noble&pg=PA213&printsec=frontcover">A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto</blockquote></p>
-        <h2>Abreviações</h2>
-          <p>Estou estudando <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading style sheets">CSS</abbr> e estou adorando, que demaissss!!!!</p>
-        <h2>Texto invertido</h2>
-          <p><bdo dir="rtl">estou apredendo a criar coisas em HTML</bdo></p>
-
+        </ol>
+      <h2>Lista não ordenadas</h2>
+        <h3>Ingredientes de um Hamburguer</h3>
+        <ul type="square"> <!-- Disc circle square-->
+            <li>Pão</li>
+            <li>Carne</li>
+            <li>alface</li>
+            <li>Tomate</li>
+            <li>Queijo</li>
+            <li>Bacon</li>
+            <li>Molho</li>
+        </ul>
+        
+        <h2>Meus jogos favoritos de cada console</h2>
+        <ol>
+            <li>Playstation 2</li>
+            <ul type="circle">
+                <li>Resident evil 4</li>
+                <li>God of war II</li>
+                <li>wwe svr 2011</li>
+                <li>Marvel ultimate aliance</li>
+            </ul>
+            <li>xbox 360</li>
+            <ul type="circle">
+                <li>AC 4 black flag</li>
+                <ul type="Disc">
+                    <li>Rayman legends</li>
+                </ul>
+                <li>resident evil revelations</li>
+                <li>MK 9</li>
+                <li>Far cry 3</li>
+                </ul>
+                <li>Playstation 4</li>
+                <ul>
+                    <li>God of war 2018</li>
+                    <li>Resident evil 4 Remake</li>
+                    <ul type=" square">
+                        <li>it takes two</li>
+                    </ul>
+                    
+                </ul>
+        </ol>
+        <h2>Lista de definições</h2>
+        <dl>
+            <dt>HTML</dt> <!-- Termo a ser usado-->
+            <dd>Linguagem de marcação que desenvolve o conteúdo do site.</dd><!-- Descrição do termo-->
+            <dt>CSS</dt>
+            <dd>Linguagem de marcação que deselvove o design do site.</dd>
+            <dt>JavaScript</dt>
+            <dd>Linguagem de programação que desenvolve a interatividade do site.</dd>
+            
+    
+        </dl>
 
     
 </body>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <h1>inserindo vídeos hospedados localmente:</h1>
+      <p>Este vídeo está hospedado no meu próprio servidor</p>
+       <video controls width="560" poster="midia/capa-bella.png" muted autoplay loop> 
+         <source src="midia/my-video.webm" type="video/webm">
+         <source src="midia/my-video.ogv" type="video/ogv">
+         <source src="midia/my-video.mp4" type="video/mp4">
+         <source src="midia/my-video.mov" type="video/mov">
+         <source src="midia/my-video.mkv" type="video/mkv">
+         <p>Seu navegador não tem compatibilidade para reproduzir esse vídeo.</p> <!--Em caso de não compatibilidade será exibido essa mensagem-->
+        
+    </video>
+      <p>ela é muito fofa hahaha!!!</p>
+
+      <h1>Inserindo vídeos do Youtube:</h1>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Ejkb_YpuHWs?si=rAckcs217dAbkj8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <h1>inserindo vídeos do vimeo</h1>
+      <iframe src="https://player.vimeo.com/video/123222594?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="A Lei da Água (Novo Código Florestal)"></iframe>
+     
+      
+</body>
+</html>
